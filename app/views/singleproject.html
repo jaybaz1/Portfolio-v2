@@ -1,0 +1,30 @@
+
+<div id="single_project_wrapper" du-smooth-scroll>
+	<div id="back" ng-click="returnToProjects()"><span class="glyphicon glyphicon-chevron-left"></span>All Projects</div>
+	<div id="single_project" class="col-md-12">
+	
+		<div id='projectInfo' class="col-md-6">
+			<h3>{{projectDetails.project}}</h3>
+			<p>{{projectDetails.description}}</p>
+			<h4>Role</h4>
+			<p>{{projectDetails.role}}</p>
+			<h4>Tools</h4>
+			<ul>
+				<li ng-repeat="tool in projectDetails.tools">{{tool}}</li>
+			</ul>
+			<h4>Link</h4>
+			<a ng-repeat="link in projectDetails.link" href='{{link}}' target='_blank'>{{link}}</a>
+		</div>
+		<div id="projectImages" class="col-md-6 pull-right" image-init>
+			<div class='projectThumb' ng-repeat="image in projectDetails.images">
+				<a href="#" class="col-md-8 col-md-offset-2" image-selector data-index="{{$index}}">
+					<img ng-src='{{image}}' />
+					<div>
+						<span class="glyphicon glyphicon-fullscreen"></span>
+					</div>
+				</a>
+			</div>
+			<div id="projectGalleryWrapper" image-viewer images="projectDetails.images" class="col-md-12"></div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,24 @@
+<h2 class="section_header">Portfolio</h2>
+    		
+<div id="projects_wrapper">
+	<ul>
+		<li ng-repeat="project in projects" id="{{project.project}}" class="col-md-4 col-sm-6 col-xs-12">
+			<div class="project_wrapper">
+				<a ng-click="projectDetailsLoad(project.project)">			
+					<span></span>
+					<p class="project_title">{{project.title}}</p>
+					<p>{{project.description}}</p>
+				</a>
+			</div>
+		</li>
+		<li class="col-md-4 col-sm-6 col-xs-12" id="codepen">
+			<div class="project_wrapper">
+				<a href="http://codepen.io/jaybaz1/" target="_blank">			
+					<span></span>
+					<p class="project_title">Codepen</p>
+					<p>Visit my Codepen showcase page.</p>
+				</a>
+			</div>
+		</li>
+	</ul>   		
+</div>

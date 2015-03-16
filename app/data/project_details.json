@@ -1,0 +1,71 @@
+{
+	"itv" : {
+			"project" : "ITV",
+			"description" : "As the second most popular page on ITV.com averaging over one million hits a day it was a great challenge and responsibility to implement the redesigned TV Guide for the ITV brand relaunch. Under a quite tight deadline we successfully completed and launched the redesigned TV Guide with many added functionality, performance and UI improvements.",
+			"role" : "Front-end Developer",
+			"tools" : ["HTML", "CSS/SASS", "JavaScript"],
+			"link" : ["http://www.itv.com/tvguide/"],
+			"images" : ["images/projects/large/itv.jpg"] 
+	},
+		
+	"sandbox" : {
+		"project" : "Reddiscover",
+		"description" : "Primarily used as a sales tool at trade shows and sales meeting. The RedDiscover sandbox highlighted two key area which RedBee Media wanted to capitalise on, EPG data and Recommendations. The sandbox consisted of a EPG and Recommendations demo and a section where potential clients could upload their own data and tune the recommendation outputs.",
+		"role" : "Designer & Front-end Developer",
+		"tools" : ["Photoshop", "Javascript", "JQuery", "CSS", "SASS", "HTML5", "D3.js"],
+		"link" : ["http://reddiscover.redbeemedia.com/index.html", "http://reddiscover.redbeemedia.com/recommendations/index.html"],
+		"images" : ["images/projects/large/sandbox.jpg", "images/projects/large/recommendations.jpg", "images/projects/large/yourData.jpg"] 
+	},
+		
+	"avala" : {
+		"project" : "Avala",
+		"description" : "The idea behind Avala was to create a website whereby users could receive feedback about their job performances from colleagues past and present in the form of a short questionnaire. The users performance data would then be analysed and presented in a fully customisable public profile page.",
+		"role" : "Designer",
+		"tools" : ["Photoshop"],
+		"images" : ["images/projects/large/avala-1.jpg", "images/projects/large/avala-2.jpg", "images/projects/large/avala-3.jpg", "images/projects/large/avala-4.jpg"] 
+	},	
+		
+	"sky" : {
+		"project" : "Sky Accessible",
+		"description" : "One of the most rewarding projects i’ve been involved with during my time at RedBee Media. We were given the opportunity to create a fully accessible TV Guide that would cater for users with visual impairments and blindness.  What we produced was an EPG with Sky’s integrated Remote Record functionality that met the W3C AA+ level accessibility rating.",
+		"role" : "Front-end Developer",
+		"tools" : ["HTML", "CSS"],
+		"link" : ["http://accessibility.sky.com/whats-on-tv"],
+		"images" : ["images/projects/large/sky.jpg"] 
+	},	
+	
+	"dashboard" : {
+		"project" : "SES SatRecord Dashbaord",
+		"description" : "SatRecord is a service whereby users can record shows remotely on their satellite connected set top box through a mobile device or webpage. I was tasked with creating a dashboard which monitors the service in real time. The dashboard visualises a number of data points ranging from total recording set in a day/week/month to displaying hourly status checks.",
+		"role" : "Designer & Front-end Developer",
+		"tools" : ["Photoshop", "Javascript", "CSS3", "SASS", "HTML5", "D3.js"],
+		"link" : ["http://demos.tvgenius.net/astra/dashboard/"],
+		"images" : ["images/projects/large/dashboard.jpg"] 
+	},	
+		
+	"travel" : {
+		"project" : "Travel Project",
+		"description" : "In my personal time i like to experiment with new concepts and third party api’s and i find the best way to do this is to work on your own projects. This is exactly what the travel project is about, the goal for this project is to allow the user to create a personal itinerary of places they’re planning to visit. As it’s still very much in the design and UI phase i currently only have a small selection of images to present at this time. More will follow in the near future.",
+		"role" : "Designer & Front-end Developer",
+		"tools" : ["Photoshop", "Balsamiq"],
+		"images" : ["images/projects/large/travel-1.jpg", "images/projects/large/travel-2.jpg"] 
+	},	
+		
+	"freeview" : {
+		"project" : "Freeview",
+		"description" : "Currently the third version of the Freeview EPG i’ve had the pleasure of developing. Started as a simple web EPG but has evolved into a fully featured TV Guide with integrated catchup data.",
+		"role" : "Front-end Developer",
+		"tools" : ["jQuery", "CSS"],
+		"link" : ["http://www.freeview.co.uk/whats-on/tv-guide"],
+		"images" : ["images/projects/large/freeview.jpg"] 
+	},	
+	
+	"sure" : {
+		"project" : "Sure TV",
+		"description" : "Sure TV are a multi-platform service provider in the Channel Islands, they first approached RedBee Media regarding the creation of a TV related mobile app that provided customers with an EPG with remote record functionality. My role in the project was to create designs for both web and mobile that followed Sure TV’s branding guidelines while incorporated all the requested features.",
+		"role" : "Designer",
+		"tools" : ["Photoshop", "Illustruator"],
+		"links" : ["https://itunes.apple.com/gb/app/sure-tv/id561953577?mt=8"],
+		"images" : ["images/projects/large/sure.jpg", "images/projects/large/order.jpg", "images/projects/large/search.jpg"] 
+	}
+}

@@ -1,0 +1,12 @@
+<div id="galleryLightbox"></div>
+<ul>
+	<li ng-repeat="image in images"><img ng-src="{{image}}" data-index={{$index}} class="col-md-12 img-responsive center-block" ng-class="{item : true}" /></li>
+</ul>
+<nav>
+	<ul>
+		<li id="prevGalleryImage"><a class="glyphicon glyphicon-chevron-left"></a></li>
+		<li id="nextGalleryImage"><a class="glyphicon glyphicon-chevron-right"></a></li>
+		
+	</ul>
+</nav>
+<div id="closeGallery"><a class="glyphicon glyphicon-remove"></a></div>

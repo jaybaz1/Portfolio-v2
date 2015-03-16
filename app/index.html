@@ -1,0 +1,195 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif|Contrail+One|Allan:700' rel='stylesheet' type='text/css'>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="portfolio">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    	<ng-include src="'views/header.html'"></ng-include>
+        
+        <div id="introWrapper" class="col-md-12 col-xs-12">
+	        <div id="backgrounds" class="col-md-12 col-xs-12">
+	    		<div id="bg_1"></div>
+	    		<div id="bg_2"></div>
+	    	</div>
+	        
+	        <section id="intro" class="col-md-10 col-md-offset-1 col-xs-12">
+	        	<hgroup>
+	        		<h2>Bharat Jay</h2>
+	        		<h3>Front-end developer & designer</h3>
+	        	</hgroup>
+	        	<p>Hello and welcome to my personal portfolio. Thanks for taking the time to checkout my work, please don't hesitate to get in touch if you have any questions or even if you just want to chat. Thanks again!</p>			
+	        </section>
+        </div>
+        
+    	<section id="portfolio" class="container-fluid col-md-10 col-md-offset-1 col-xs-12" ng-controller="ProjectsController">
+	    	<ng-include src="'views/projects.html'" ng-hide="singleProjectView" class="animate-show"></ng-include>
+	    	<ng-include src="'views/singleproject.html'" ng-show="singleProjectView" class="animate-show"></ng-include>		    	
+    	</section>
+    	
+    	<span class="curve"></span>
+    	
+    	<div class="break_wrapper col-md-12 hidden-sm hidden-xs">
+    		<img src="images/baz.jpg" parallax parallax-ratio="0.1"/>
+    	</div>
+    	
+    	<section id="about_me" class="container-fluid col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+    		<h2 class="section_header">About Me</h2>
+    		
+			<div id="about_me_container">
+				<div id="about_me_col1" class="col-md-6 col-sm-6">
+					<p>Hello. My name is Bharat but your welcome to call me Baz. I'm a front end developer working in London. I'm foremost a developer but have a good eye for design and UI/UX. I've worked in the media industry for the past 6 years and collaborated with some of the biggest broadcasters and publishers in Europe to deliver compelling application for web and mobile. 
+</p>
+
+					<section class="col-md-12 col-xs-12">
+						<h3>Experience</h3>
+						<ul>
+							<li class="col-md-6 col-xs-6">
+								<div class="place">RedBee Media now Ericsson</div>
+								<div class="date">2011-Present</div>
+								<p class="role">Front End Developer</p>								
+							</li>
+							<li class="col-md-6 col-xs-6">
+								<div class="place">TVGenius</div>
+								<div class="date">2007-2011</div>
+								<p class="role">Front End Developer</p>								
+							</li>
+						</ul>
+					</section>
+					
+					<section>
+						<h3>Skills</h3>
+						<p>Here are a few skills I've used in my recent projects:</p>
+						<ul id="skills">
+							<li>HTML4/5</li>
+							<li>CSS2/3</li>
+							<li>JavaScript</li>
+							<li>SASS</li> 
+							<li>Photoshop</li>
+							<li>jQuery</li>
+							<li>GruntJS</li>
+							<li>Bower</li>
+							<li>Responsive Design</li>
+							<li>AngularJS</li>
+							<li>Bootstrap</li>
+							<li>Canvas</li>
+							<li>Agile</li>
+							<li>SVN</li>
+							<li>Yeoman</li>
+						</ul>
+					</section>
+					
+				</div>
+				
+				<div id="about_me_col2" class="col-md-6 col-sm-6 col-xs-12">					
+					<section id="education">
+						<h3>Eduction</h3>
+						<ul>
+							<li>
+								<div class="place">University of Hertfordshire</div>
+								<div class="date">2002-2006</div>	
+								<p class="role"> 2:1 Bachelor of Arts (Honours) Software Systems for the Arts and Media </p>						
+							</li>
+						</ul>
+					</section>
+				
+					
+					<section id="activites">
+						<h3>Activities & Hobbies</h3>
+						<ul>
+							<li class="col-md-2 col-xs-2">
+								<img alt="game pad" src="images/hobbies/gaming.png" />
+								<div class="activity">Gaming</div>
+							</li>
+							<li  class="col-md-2 col-xs-2">
+								<img alt="football" src="images/hobbies/football.png" />
+								<div class="activity">Football</div>
+							</li>
+							<li  class="col-md-2 col-xs-2">
+								<img alt="world" src="images/hobbies/world.png" />
+								<div class="activity">Travelling</div>
+							</li>
+							<li  class="col-md-2 col-xs-2">
+								<img alt="squash player" src="images/hobbies/squash.png" />
+								<div class="activity">Squash</div>
+							</li>
+							<li  class="col-md-2 col-xs-2">
+								<img alt="camera" src="images/hobbies/camera.png" />
+								<div class="activity">Photography</div>
+							</li>
+						</ul>
+						<p class="col-md-12 col-xs-12">I'm not one for just learning new skills at work, in my spare time i enjoy doing little projects to keep my skills current. Checkout my Codepen or Avala and Travel Site projects in my Portfolio to see what i've been up to.</p>
+					</section>																
+					
+				</div>
+			</div>
+			
+    	</section>	    	
+	    	
+    	<footer id="contact_me" class="container-fluid col-md-10 col-md-offset-1 col-xs-12">
+    		<ul>
+    			<li class="col-md-2 col-md-offset-3 col-xs-4">
+    				<a id="social_mail" href="mailto:jaybaz1@gmail.com">
+	    				<span class="hidden-xs">jaybaz1@gmail.com</span>
+    				</a>
+    			</li>
+    			<li class="col-md-2 col-xs-4">
+    				<a id="social_skype" href="skype:baz.jay?add">
+    					<span class="hidden-xs">baz.jay</span>
+    				</a>
+    			</li>
+    			<li class="col-md-2 col-xs-4">
+    				<a id="social_linkedin" href="https://www.linkedin.com/in/bharatjay" target="_blank"></a>    				
+    			</li>
+    		</ul>
+    		
+    		<span class="clear"></span>  					
+    	</footer> 
+
+    <!-- build:js(.) scripts/oldieshim.js -->
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <![endif]-->
+    <!-- endbuild -->
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-scroll/angular-scroll.js"></script>
+    <script src="bower_components/angular-parallax/scripts/angular-parallax.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/imageViewer.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

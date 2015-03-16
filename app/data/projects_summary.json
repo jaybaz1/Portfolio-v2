@@ -1,0 +1,45 @@
+{
+    "projects": [
+	    {
+		   "project":"freeview", 
+		   "title":"Freeview TV Guide", 
+		   "description":"Collaborated with a third party design agency to create a highly functional and easy to use TV Guide for free to air service Freeview."
+	    },
+	    {
+		   "project":"sandbox", 
+		   "title":"Sandbox Project", 
+		   "description":"Working with colleagues across RedBee we were tasked to create and showcase RedBee Media's latest products, I was assigned to design and create a set of sandbox demos to aid the sales team at various exhibition and prospect meetings."
+	    },
+	    {
+		   "project":"travel", 
+		   "title":"Travel Site Concept", 
+		   "description":"A personal project that explores a better way to plan your holiday."
+	    },  
+	    {
+		   "project":"sky", 
+		   "title":"Sky Accessible", 
+		   "description":"Helped created a fully accessible TV Guide for Sky's visually impaired customers base. To achieve the right level of service the site conforms to the W3C AA+ accessibility rating."
+	    },  
+	    {
+		   "project":"dashboard", 
+		   "title":"SES Dashboard", 
+		   "description":"Working with SES Astra  I designed and created a reporting tool which monitors the current status of  the SatRecord service."
+	    }, 
+	    {
+		   "project":"avala", 
+		   "title":"Avala", 
+		   "description":"A collaborative personal project which was designed to provide a method for individual's to gain a better understanding of their professional skills through the eyes of their work colleagues."
+	    },   
+	    {
+		   "project":"itv", 
+		   "title":"ITV TV Guide", 
+		   "description":"Was part of the team that created one of the most popular TV Guides in the UK, with the latest rebranding averaging over a million hits its a day."
+	    },
+	    {
+		   "project":"sure", 
+		   "title":"Sure TV Guide", 
+		   "description":"Designed the UI for the native Sure TV mobile iOS app."
+	    }     
+    ]
+}
+
