@@ -10,6 +10,15 @@
 		
 	"sandbox" : {
 		"project" : "Reddiscover",
+		"description" : "The RedDiscover demo is now in it's second version. Primarily used as a sales tool at trade shows and sales meeting. The RedDiscover demo highlighted two key area which Ericsson wanted to capitalise on, content discovery and rich program metadata. The sandbox consisted of multiple langauge TV Guides with rich program metadata including detailed program description, external links(IMDB, Wikipedia), contributor details and program brand, series and episode coverage.  Version 1 of the demo was more focused on recommendations, one of the key features was to allow clients to upload their own data, play around with the various setting and then have a recommendation set generate using our service. You can see a few screen shots of this version below. Unforfunately this functionality has been removed from the new version.",
+		"role" : "Designer & Front-end Developer",
+		"tools" : ["Photoshop", "Javascript", "AngularJS", "Bootstrap", "JQuery", "CSS", "SASS", "HTML5", "GruntJS", "Bower", "Yeoman", "D3.js"],
+		"link" : ["http://reddiscover.redbeemedia.com/demos"],
+		"images" : ["images/projects/large/reddiscover_home.png", "images/projects/large/reddiscover_summary.png", "images/projects/large/reddiscover_tvguide.png", "images/projects/large/recommendations.jpg", "images/projects/large/yourData.jpg"] 
+	},
+	
+	"sandbox version 2" : {
+		"project" : "Reddiscover v2",
 		"description" : "Primarily used as a sales tool at trade shows and sales meeting. The RedDiscover sandbox highlighted two key area which RedBee Media wanted to capitalise on, EPG data and Recommendations. The sandbox consisted of a EPG and Recommendations demo and a section where potential clients could upload their own data and tune the recommendation outputs.",
 		"role" : "Designer & Front-end Developer",
 		"tools" : ["Photoshop", "Javascript", "JQuery", "CSS", "SASS", "HTML5", "D3.js"],
@@ -26,7 +35,7 @@
 	},	
 		
 	"sky" : {
-		"project" : "Sky Accessible",
+		"project" : "Sky Accessible Guide",
 		"description" : "One of the most rewarding projects i’ve been involved with during my time at RedBee Media. We were given the opportunity to create a fully accessible TV Guide that would cater for users with visual impairments and blindness.  What we produced was an EPG with Sky’s integrated Remote Record functionality that met the W3C AA+ level accessibility rating.",
 		"role" : "Front-end Developer",
 		"tools" : ["HTML", "CSS"],
@@ -65,7 +74,7 @@
 		"description" : "Sure TV are a multi-platform service provider in the Channel Islands, they first approached RedBee Media regarding the creation of a TV related mobile app that provided customers with an EPG with remote record functionality. My role in the project was to create designs for both web and mobile that followed Sure TV’s branding guidelines while incorporated all the requested features.",
 		"role" : "Designer",
 		"tools" : ["Photoshop", "Illustruator"],
-		"links" : ["https://itunes.apple.com/gb/app/sure-tv/id561953577?mt=8"],
+		"link" : ["https://itunes.apple.com/gb/app/sure-tv/id561953577"],
 		"images" : ["images/projects/large/sure.jpg", "images/projects/large/order.jpg", "images/projects/large/search.jpg"] 
 	}
 }

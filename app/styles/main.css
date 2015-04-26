@@ -261,6 +261,11 @@ margin:10px 0px;
 	top:-58%;
 }
 
+#github div:before{ 
+	background-image: url(../images/projects/thumbs/github.png); 
+	top:-58%;
+}
+
 section#portfolio #single_project_wrapper div#back {
 	background: #333;
 	border: none;
@@ -553,6 +558,10 @@ section#about_me div#about_me_container section li div.place {
 
 section#about_me section#activites li {
 	text-align: left;
+}
+
+section#about_me section#activites .hobby_img_wrapper {
+	height:52px;
 }
 
 section#about_me section#activites li img {
